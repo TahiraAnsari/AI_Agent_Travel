@@ -9,7 +9,7 @@ from agents import (
 from agents.run import RunConfig
 from travel_tools import get_flight, suggest_hotels
 
-gemini_key = "AIzaSyAdxJObQdZ-qoDS35s9d3nyf7WwvPDd3e0"
+gemini_key = ""#add your own Gemini key
 
 load_dotenv()
 client = AsyncOpenAI(
